@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft Yi Baiti;
+}
+
+
+body {
+    background-color: #f8f5f9;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+
+
+}
+    
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+nav > ul {
+    
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style-type: none;
+    
+    
+}
+nav > ul  li > a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    line-height: 100px;
+    transition: .5s;
+
+    
+    
+}
+
+nav > ul > li {
+    display: block;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+   
+    
+    
+    
+}
+
+nav > ul > li > img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+ul > img {
+    width: 200px;
+    height: 100px;
+    margin-left: 280%;
+    margin-right: 0%;
+
+
+}
+
+.dogo{
+    
+    width: 60%;
+    
+    
+}
+nav {
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+}
+
+nav > ul {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+nav > ul > li > a {
+
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    color: red;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+
+main > section {
+    width: 80%;
+    min-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+
+
+}
+
+
+.flex-container {
+    display: flex;
+    
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.flex-container > a > img {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    
+
+}
+
+.black {
+    display: flex;
+    
+    
+    
+}
+
+.diet{
+    display: flex;
+    
+}
+body{
+    margin-top: 2%;
+    
+    
+    
+}
+main {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ddbfa5;
+    padding: 50px;
+
+}
+#full {
+    margin: -100px auto 0 auto;
+}
+
+#start  {
+    width: 60%;
+margin: 0 auto;
+}
+
+main > section > div > img {
+    height: 100%;
+
+
+}
+
+.teaser {
+    
+    background-color: #f8f5f9;
+     
+    
+}
+.flexstart {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.ov{
+       display: block;
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    
+}
+
+.text{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    
+    
+    
+}
+
+
+
+#citat {
+    color: white;
+    text-align: center;
+
+}
+
+footer{
+
+    width: 100%;
+    min-height: inherit;
+    margin: 0 auto;
+    background-color: #e3cab6;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+
+.dropbtn {
+    background-color: #f8f5f9;
+    color: red;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #928586;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+
+    background-color: #928586;
+}
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+@media  (max-width:480px) {
+    /*for mobile*/
+     header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  
+}
+
+header > img {
+
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    
+    
+
+
+}
+nav{
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 0px; 
+}
+nav > ul {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    list-style-type: none;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+nav > ul > li > a {
+    
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    color: red;
+    text-decoration: none;
+    transition: .5s;
+
+}
+
+main{
+    width: 100%;
+    min-height: inherit;
+    margin: 0 auto;
+    background-color: #ddbfa5;
+    padding: 60px;
+    
+}
+
+main > section {
+    
+    width: 80%;
+    min-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 80px;
+    
+    
+}
+
+main > section > div > img {
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    
+}
+
+footer {
+    
+    width: 100%;
+    min-height: inherit;
+    margin: 0 auto;
+    background-color: #e3cab6;
+    padding: 50px;
+    
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    
+}
+
+    
+    
+} 
+  
